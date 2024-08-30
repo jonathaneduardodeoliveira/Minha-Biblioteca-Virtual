@@ -18,7 +18,6 @@ public abstract class BibliotecaServiceImpl implements BibliotecaService {
 
     @Override
     public String reservar(String titulo) {
-        // Implementar a lógica de reserva
         return "Reserva realizada para: " + titulo;
     }
 }

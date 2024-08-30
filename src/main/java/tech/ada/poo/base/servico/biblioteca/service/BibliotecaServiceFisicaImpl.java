@@ -21,10 +21,7 @@ public class BibliotecaServiceFisicaImpl extends BibliotecaServiceImpl implement
 
     @Override
     public void cadastrar(ItemCatalogo item) {
-        // validar para não salvar item existente
-        // lançar exceção ItemCatalogoExisteException, se existir igual
-        // implementar obter e chamar ele do repositório e comparar com equals
-
+        
         super.repositorio.cadastrar(item);
         System.out.println("item " + item + " cadastrado!");
     }
